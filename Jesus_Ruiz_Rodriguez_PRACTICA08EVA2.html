@@ -7,7 +7,7 @@
     <title>Ejercicio 8</title>
 </head>
 <body>
-    <p id="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident impedit autem a esse beatae, vitae nostrum consequatur repellendus officiis minima! Corporis reiciendis suscipit, culpa esse accusantium itaque omnis nobis facilis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident impedit autem a esse beatae, vitae nostrum consequatur repellendus officiis minima! Corporis reiciendis suscipit, culpa esse accusantium itaque omnis nobis facilis.</p>
     <p>Ex voluptate eum saepe, blanditiis nihil sint consequuntur, consequatur ea voluptas expedita excepturi, ad praesentium modi eaque alias laborum dolore dignissimos rem. Voluptate non iste obcaecati officia neque sit ducimus?</p>
     <p>Dolores iure earum, reprehenderit veritatis impedit fuga nemo atque quas, dolore, consequuntur delectus esse! Asperiores odio deserunt, voluptatibus consequuntur tempore in magni nesciunt natus voluptatem accusamus ullam dolore et velit!</p>
     <p>At cupiditate est, dolorum mollitia esse aliquid ullam enim, suscipit beatae ea deserunt sapiente officia! Hic et omnis eum ut quae voluptatibus architecto numquam consequuntur eos, sed ipsa adipisci. Neque!</p>
@@ -28,10 +28,10 @@
         }
 
         let i =0;
-        let parrafo = [];
+        let parrafada = [];
         
-        for(var parrafos of document.querySelectorAll("p").innerHTML){
-            parrafo[i] = parrafos;
+        for(var parrafos of document.querySelectorAll("p")){
+            parrafada[i] = parrafos.innerHTML;
             contarSpace(parrafada[i]);
             i++;
 
