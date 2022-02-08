@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+</head>
+<body>
+    <p id="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident impedit autem a esse beatae, vitae nostrum consequatur repellendus officiis minima! Corporis reiciendis suscipit, culpa esse accusantium itaque omnis nobis facilis.</p>
+    <p>Ex voluptate eum saepe, blanditiis nihil sint consequuntur, consequatur ea voluptas expedita excepturi, ad praesentium modi eaque alias laborum dolore dignissimos rem. Voluptate non iste obcaecati officia neque sit ducimus?</p>
+    <p>Dolores iure earum, reprehenderit veritatis impedit fuga nemo atque quas, dolore, consequuntur delectus esse! Asperiores odio deserunt, voluptatibus consequuntur tempore in magni nesciunt natus voluptatem accusamus ullam dolore et velit!</p>
+    <p>At cupiditate est, dolorum mollitia esse aliquid ullam enim, suscipit beatae ea deserunt sapiente officia! Hic et omnis eum ut quae voluptatibus architecto numquam consequuntur eos, sed ipsa adipisci. Neque!</p>
+    <p>Harum dolorum voluptatibus explicabo! Quidem, ut suscipit? Laboriosam, aliquam molestiae. Reprehenderit, voluptas. Cum alias fugit doloremque odit voluptates ipsam voluptatibus reprehenderit, vitae reiciendis iure sed accusantium doloribus, iusto et magni!</p>
+    <p>Nemo voluptatem expedita asperiores similique eius, vel dignissimos. Perspiciatis harum minima quo odio autem! Nobis, fuga! Qui tempora esse nostrum inventore maxime fuga, dolor sapiente nobis itaque unde corporis maiores.</p>
+    <p>Enim assumenda sint dicta, labore quos vel aliquid nam ea ducimus eligendi beatae tempora in unde, alias, nemo cupiditate minus rerum veniam eius. Neque illo dolores harum provident voluptate libero!</p>
+    <p>Accusantium, hic explicabo. Dolor explicabo odio aliquam incidunt aperiam, sit aut iste nulla quis possimus autem laboriosam iusto veniam eum libero ex, vel consequatur minima sapiente beatae? Vero, commodi ratione?</p>
+    <p>Quam, enim tempora commodi in minus qui totam rerum dolores eligendi praesentium quasi quas assumenda sequi adipisci ea nisi cumque asperiores autem. Placeat suscipit voluptatum dolor excepturi cupiditate nobis temporibus?</p>
+    <p>Nobis explicabo magni, exercitationem ipsam velit, consequuntur sed nihil dolores ipsa officiis non. Alias rem rerum fuga excepturi exercitationem architecto reprehenderit, deleniti est possimus doloremque vitae expedita, beatae necessitatibus veritatis!</p>
+
+    <script>
+        
+        let contarSpace = function (p) {
+            let b = " ";
+            let a = /^\s.*$/;
+            let parrafoFinal= p.trim().replace(b,a).split(b);
+            console.log(parrafoFinal.length);
+        }
+
+        let i =0;
+        let parrafo = [];
+        
+        for(var parrafos of document.querySelectorAll("p").innerHTML){
+            parrafo[i] = parrafos;
+            contarSpace(parrafada[i]);
+            i++;
+
+        }
+
+        
+        
+    </script>
+</body>
+</html>
